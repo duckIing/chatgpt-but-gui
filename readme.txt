@@ -14,4 +14,8 @@ conda activate pyside6
 # 下载包
 # pyside6 -- GUI
 # pyinstaller -- 打包为 exe
-pip install pyside6  pyinstaller -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install pyside6  pyinstaller  appdirs  -i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+# 打包
+pyinstaller  -F   -i  convert.ico  -w convert_ico.py
